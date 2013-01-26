@@ -14,9 +14,7 @@ public class VirusN2H2 : MonoBehaviour {
 	}
 	
 	IEnumerator Jig()
-	{
-		Debug.Log ( "Jig!");
-		
+	{		
 		while(true)
 		{
 			yield return new WaitForSeconds(0.5f);
